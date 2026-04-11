@@ -2,14 +2,11 @@ import { useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import BookItem from "./BookItem";
 import MyLibrary from "./MyLibrary";
+import GenrePage from "./GenrePage";
+import BookDetails from "./BookDetails";
 
-function BookDetails() {
-  return <h1>Book Details</h1>;
-}
 
-function GenrePage() {
-  return <h1>Genre Page</h1>;
-}
+
 
 // ✅ HOME
 function Home({ books, userBooks, setUserBooks }) {
@@ -129,8 +126,26 @@ function App() {
         }
       />
 
-      <Route path="/book/:id" element={<BookDetails />} />
-      <Route path="/genre/:genre" element={<GenrePage />} />
+      <Route
+        path="/book/:id"
+        element={
+          <BookDetails
+            books={books}
+            userBooks={userBooks}
+            setUserBooks={setUserBooks}
+          />
+        }
+      />
+      <Route
+        path="/genre/:genre"
+        element={
+          <GenrePage
+            books={books}
+            userBooks={userBooks}
+            setUserBooks={setUserBooks}
+          />
+        }
+      />
     </Routes>
   );
 }

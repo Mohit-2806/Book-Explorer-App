@@ -1,25 +1,29 @@
 import { useParams } from "react-router-dom";
+import BookItem from "./BookItem";
 
 function GenrePage({ books, userBooks, setUserBooks }) {
-  const { genre } = useParams();
+    const { genre } = useParams();
 
-  const filteredBooks = books.filter(
-    (book) => book.genre === genre
-  );
+    const filteredBooks = books.filter((b) =>
+    b.genre.toLowerCase().includes(genre.toLowerCase())
+    );
 
-  return (
-    <div>
-      <h1>{genre}</h1>
+    return (
+        <div style={{ padding: "20px" }}>
+        <h1>{genre} Books</h1>
 
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
-        {filteredBooks.map((book) => (
-          <div key={book.id}>
-            <p>{book.title}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "15px" }}>
+            {filteredBooks.map((book) => (
+            <BookItem
+                key={book.id}
+                book={book}
+                userBooks={userBooks}
+                setUserBooks={setUserBooks}
+            />
+            ))}
+        </div>
+        </div>
+    );
 }
 
 export default GenrePage;

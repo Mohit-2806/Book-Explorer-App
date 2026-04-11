@@ -1,3 +1,5 @@
+import BookItem from "./BookItem";
+
 function MyLibrary({ userBooks = [], books = [], setUserBooks }) {
 
   const handleAdd = (bookId, status) => {
@@ -47,46 +49,104 @@ function MyLibrary({ userBooks = [], books = [], setUserBooks }) {
     <div style={{ padding: "20px" }}>
       <h1>My Library</h1>
 
+      {/* 📚 To Read */}
       <h2>📚 To Read</h2>
-      {toReadBooks.map((ub) => {
-        const book = books.find(b => b.id === ub.bookId);
-        if (!book) return null;
+      <div style={{ display: "flex", gap: "15px", overflowX: "auto", padding: "10px 0" }}>
+        {toReadBooks.map((ub) => {
+          const book = books.find(b => b.id === ub.bookId);
+          if (!book) return null;
 
-        return (
-          <div key={ub.bookId}>
-            <h3>{book.title}</h3>
-          </div>
-        );
-      })}
+          return (
+            <div key={ub.bookId}>
+              <BookItem
+                book={book}
+                userBooks={userBooks}
+                setUserBooks={setUserBooks}
+              />
 
+              <button onClick={() => handleAdd(ub.bookId, "to-read")}>
+                {ub.status === "to-read" ? "✅ " : ""} To Read
+              </button>
+
+              <button onClick={() => handleAdd(ub.bookId, "reading")}>
+                {ub.status === "reading" ? "✅ " : ""} Reading
+              </button>
+
+              <button onClick={() => handleAdd(ub.bookId, "completed")}>
+                {ub.status === "completed" ? "✅ " : ""} Completed
+              </button>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* 📖 Reading */}
       <h2>📖 Reading</h2>
-      {readingBooks.map((ub) => {
-        const book = books.find(b => b.id === ub.bookId);
-        if (!book) return null;
+      <div style={{ display: "flex", gap: "15px", overflowX: "auto", padding: "10px 0" }}>
+        {readingBooks.map((ub) => {
+          const book = books.find(b => b.id === ub.bookId);
+          if (!book) return null;
 
-        return (
-          <div key={ub.bookId}>
-            <h3>{book.title}</h3>
-            <p>Progress: {ub.progress}%</p>
+          return (
+            <div key={ub.bookId}>
+              <BookItem
+                book={book}
+                userBooks={userBooks}
+                setUserBooks={setUserBooks}
+              />
 
-            <button onClick={() => increaseProgress(ub.bookId)}>
-              +10%
-            </button>
-          </div>
-        );
-      })}
+              <p>Progress: {ub.progress}%</p>
 
+              <button onClick={() => handleAdd(ub.bookId, "to-read")}>
+                To Read
+              </button>
+
+              <button onClick={() => handleAdd(ub.bookId, "reading")}>
+                {ub.status === "reading" ? "✅ " : ""} Reading
+              </button>
+
+              <button onClick={() => handleAdd(ub.bookId, "completed")}>
+                Completed
+              </button>
+
+              <button onClick={() => increaseProgress(ub.bookId)}>
+                +10%
+              </button>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* ✅ Completed */}
       <h2>✅ Completed</h2>
-      {completedBooks.map((ub) => {
-        const book = books.find(b => b.id === ub.bookId);
-        if (!book) return null;
+      <div style={{ display: "flex", gap: "15px", overflowX: "auto", padding: "10px 0" }}>
+        {completedBooks.map((ub) => {
+          const book = books.find(b => b.id === ub.bookId);
+          if (!book) return null;
 
-        return (
-          <div key={ub.bookId}>
-            <h3>{book.title}</h3>
-          </div>
-        );
-      })}
+          return (
+            <div key={ub.bookId}>
+              <BookItem
+                book={book}
+                userBooks={userBooks}
+                setUserBooks={setUserBooks}
+              />
+
+              <button onClick={() => handleAdd(ub.bookId, "to-read")}>
+                To Read
+              </button>
+
+              <button onClick={() => handleAdd(ub.bookId, "reading")}>
+                Reading
+              </button>
+
+              <button onClick={() => handleAdd(ub.bookId, "completed")}>
+                {ub.status === "completed" ? "✅ " : ""} Completed
+              </button>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
