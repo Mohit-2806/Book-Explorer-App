@@ -4,11 +4,8 @@ import BookItem from "./BookItem";
 import MyLibrary from "./MyLibrary";
 import GenrePage from "./GenrePage";
 import BookDetails from "./BookDetails";
+import Navbar from "./Navbar";
 
-
-
-
-// ✅ HOME
 function Home({ books, userBooks, setUserBooks }) {
   const navigate = useNavigate();
   const [search, setSearch] = useState("");
@@ -20,134 +17,181 @@ function Home({ books, userBooks, setUserBooks }) {
   }, {});
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Book Explorer</h1>
-
-      <input
-        placeholder="Search..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
+    <div
+      style={{
+        background: "#F5F1E6",
+        minHeight: "100vh",
+        overflowX: "hidden" // ✅ FIX
+      }}
+    >
+      <div
         style={{
-          padding: "10px",
-          marginBottom: "20px",
-          borderRadius: "10px",
-          border: "1px solid #ccc"
+          padding: "30px",
+          maxWidth: "1200px",
+          margin: "0 auto",
+          marginTop: "10px",
+          fontFamily: "sans-serif"
         }}
-      />
+      >
+        <h1 style={{ color: "#4E342E" }}>Book Explorer</h1>
 
-      <button onClick={() => navigate("/my-library")}>
-        Go to My Library
-      </button>
+        <input
+          placeholder="Search..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          style={{
+            padding: "10px",
+            marginBottom: "20px",
+            borderRadius: "10px",
+            border: "1px solid #D7CCC8"
+          }}
+        />
 
-      {/* SEARCH */}
-      {search ? (
-        <div>
-          <h2>Search Results</h2>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "15px" }}>
-            {books
-              .filter((b) =>
-                b.title.toLowerCase().includes(search.toLowerCase())
-              )
-              .map((b) => (
-                <BookItem
-                  key={b.id}
-                  book={b}
-                  userBooks={userBooks}
-                  setUserBooks={setUserBooks}
-                />
-              ))}
-          </div>
-        </div>
-      ) : (
-        Object.keys(groupedBooks).map((genre) => (
-          <div key={genre} style={{ marginBottom: "30px" }}>
-            <h2>
-              {genre}
-              <button onClick={() => navigate(`/genre/${genre}`)}>
-                ➡️
-              </button>
-            </h2>
+        <button onClick={() => navigate("/my-library")} style={btn}>
+          My Library
+        </button>
 
-            <div
-              style={{
-                display: "flex",
-                gap: "15px",
-                overflowX: "auto",
-                padding: "10px 0"
-              }}
-            >
-              {groupedBooks[genre].map((b) => (
-                <BookItem
-                  key={b.id}
-                  book={b}
-                  userBooks={userBooks}
-                  setUserBooks={setUserBooks}
-                />
-              ))}
+        {search ? (
+          <div>
+            <h2 style={h2}>Search Results</h2>
+            <div style={grid}>
+              {books
+                .filter((b) =>
+                  b.title.toLowerCase().includes(search.toLowerCase())
+                )
+                .map((b) => (
+                  <BookItem
+                    key={b.id}
+                    book={b}
+                    userBooks={userBooks}
+                    setUserBooks={setUserBooks}
+                  />
+                ))}
             </div>
           </div>
-        ))
-      )}
+        ) : (
+          Object.keys(groupedBooks).map((genre) => (
+            <div key={genre} style={{ marginBottom: "40px" }}>
+              <h2 style={h2}>
+                {genre}
+                <button
+                  onClick={() => navigate(`/genre/${genre}`)}
+                  style={btnSmall}
+                >
+                  ➡️
+                </button>
+              </h2>
+
+              <div style={row}>
+                {groupedBooks[genre].map((b) => (
+                  <BookItem
+                    key={b.id}
+                    book={b}
+                    userBooks={userBooks}
+                    setUserBooks={setUserBooks}
+                  />
+                ))}
+              </div>
+            </div>
+          ))
+        )}
+      </div>
     </div>
   );
 }
 
-// ✅ APP
 function App() {
   const [books] = useState([
-    { id: "1", title: "Harry Potter", genre: "Fantasy" },
-    { id: "2", title: "Atomic Habits", genre: "Self-help" },
-    { id: "3", title: "The Hobbit", genre: "Fantasy" }
+    { id: "1", title: "Harry Potter", genre: "Fantasy", rating: 4.8 },
+    { id: "2", title: "Atomic Habits", genre: "Self-help", rating: 4.7 },
+    { id: "3", title: "The Hobbit", genre: "Fantasy", rating: 4.9 }
   ]);
 
   const [userBooks, setUserBooks] = useState([]);
 
   return (
-    <Routes>
-      <Route
-        path="/"
-        element={
-          <Home
-            books={books}
-            userBooks={userBooks}
-            setUserBooks={setUserBooks}
-          />
-        }
-      />
-
-      <Route
-        path="/my-library"
-        element={
-          <MyLibrary
-            userBooks={userBooks}
-            books={books}
-            setUserBooks={setUserBooks}
-          />
-        }
-      />
-
-      <Route
-        path="/book/:id"
-        element={
-          <BookDetails
-            books={books}
-            userBooks={userBooks}
-            setUserBooks={setUserBooks}
-          />
-        }
-      />
-      <Route
-        path="/genre/:genre"
-        element={
-          <GenrePage
-            books={books}
-            userBooks={userBooks}
-            setUserBooks={setUserBooks}
-          />
-        }
-      />
-    </Routes>
+    <>
+      <Navbar />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Home
+              books={books}
+              userBooks={userBooks}
+              setUserBooks={setUserBooks}
+            />
+          }
+        />
+        <Route
+          path="/my-library"
+          element={
+            <MyLibrary
+              userBooks={userBooks}
+              books={books}
+              setUserBooks={setUserBooks}
+            />
+          }
+        />
+        <Route
+          path="/book/:id"
+          element={
+            <BookDetails
+              books={books}
+              userBooks={userBooks}
+              setUserBooks={setUserBooks}
+            />
+          }
+        />
+        <Route
+          path="/genre/:genre"
+          element={
+            <GenrePage
+              books={books}
+              userBooks={userBooks}
+              setUserBooks={setUserBooks}
+            />
+          }
+        />
+      </Routes>
+    </>
   );
 }
+
+const btn = {
+  padding: "8px 12px",
+  borderRadius: "8px",
+  border: "none",
+  background: "#4CAF50",
+  color: "white",
+  cursor: "pointer"
+};
+
+const btnSmall = {
+  ...btn,
+  marginLeft: "10px",
+  padding: "6px 10px",
+  fontSize: "12px"
+};
+
+const h2 = {
+  color: "#5D4037",
+  marginBottom: "10px"
+};
+
+const grid = {
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "15px"
+};
+
+const row = {
+  display: "flex",
+  gap: "15px",
+  overflowX: "auto",
+  padding: "10px 0",
+  scrollBehavior: "smooth",
+  scrollbarWidth: "none"
+};
 
 export default App;
