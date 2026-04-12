@@ -10,7 +10,7 @@ function BookDetails({ books, userBooks }) {
   return (
     <div
       style={{
-        background: "#F5F1E6", // full background
+        background: "#0B3D4F", // full background
         minHeight: "100vh"
       }}
     >
@@ -30,13 +30,13 @@ function BookDetails({ books, userBooks }) {
           src="https://picsum.photos/250/350"
           alt={book.title}
           style={{
-            border: "3px solid #D7CCC8",
+            border: "3px solid #FFD54F",
             borderRadius: "15px"
           }}
         />
 
         {/* RIGHT */}
-        <div style={{ color: "#4E342E" }}>
+        <div style={{ color: "#FFD54F" }}>
           <h1>{book.title}</h1>
           <p><b>Genre:</b> {book.genre}</p>
           <p><b>Rating:</b> ⭐ {book.rating}</p>

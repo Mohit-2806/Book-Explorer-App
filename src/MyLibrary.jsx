@@ -46,13 +46,13 @@ function MyLibrary({ userBooks = [], books = [], setUserBooks }) {
   const completedBooks = userBooks.filter(ub => ub.status === "completed");
 
   return (
-    <div style={{ background: "#F5F1E6", minHeight: "100vh" }}>
+    <div style={{ background: "#0B3D4F", minHeight: "100vh" }}>
       <div style={{ padding: "30px", maxWidth: "1200px", margin: "0 auto", marginTop: "10px" }}>
 
-        <h1 style={{ color: "#4E342E" }}>My Library</h1>
+        <h1 style={{ color: "#FFD54F" }}>My Library</h1>
 
         {/* 📚 To Read */}
-        <h2 style={{ color: "#5D4037", marginTop: "20px" }}>📚 To Read</h2>
+        <h2 style={{ color: "#FFD54F", marginTop: "20px" }}>📚 To Read</h2>
         <div style={row}>
           {toReadBooks.map((ub) => {
             const book = books.find(b => b.id === ub.bookId);
@@ -70,7 +70,7 @@ function MyLibrary({ userBooks = [], books = [], setUserBooks }) {
         </div>
 
         {/* 📖 Reading */}
-        <h2 style={{ color: "#5D4037", marginTop: "20px" }}>📖 Reading</h2>
+        <h2 style={{ color: "#FFD54F", marginTop: "20px" }}>📖 Reading</h2>
         <div style={row}>
           {readingBooks.map((ub) => {
             const book = books.find(b => b.id === ub.bookId);
@@ -83,14 +83,14 @@ function MyLibrary({ userBooks = [], books = [], setUserBooks }) {
                   userBooks={userBooks}
                   setUserBooks={setUserBooks}
                 />
-                <p style={{ color: "#4E342E" }}>Progress: {ub.progress}%</p>
+                <p style={{ color: "#FFD54F" }}>Progress: {ub.progress}%</p>
               </div>
             );
           })}
         </div>
 
         {/* ✅ Completed */}
-        <h2 style={{ color: "#5D4037", marginTop: "20px" }}>✅ Completed</h2>
+        <h2 style={{ color: "#FFD54F", marginTop: "20px" }}>✅ Completed</h2>
         <div style={row}>
           {completedBooks.map((ub) => {
             const book = books.find(b => b.id === ub.bookId);

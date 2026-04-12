@@ -11,7 +11,7 @@ function GenrePage({ books, userBooks, setUserBooks }) {
   return (
     <div
       style={{
-        background: "#F5F1E6", // ✅ full-page cream
+        background: "#0B3D4F", // ✅ full-page cream
         minHeight: "100vh"
       }}
     >
@@ -24,7 +24,7 @@ function GenrePage({ books, userBooks, setUserBooks }) {
           fontFamily: "sans-serif"
         }}
       >
-        <h1 style={{ color: "#4E342E", marginBottom: "20px" }}>
+        <h1 style={{ color: "#FFD54F", marginBottom: "20px" }}>
           {genre} Books
         </h1>
 
@@ -45,7 +45,7 @@ function GenrePage({ books, userBooks, setUserBooks }) {
               />
             ))
           ) : (
-            <p style={{ color: "#5D4037" }}>
+            <p style={{ color: "#FFD54F" }}>
               No books found in this genre.
             </p>
           )}
