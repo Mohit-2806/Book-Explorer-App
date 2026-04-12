@@ -5,6 +5,8 @@ import MyLibrary from "./MyLibrary";
 import GenrePage from "./GenrePage";
 import BookDetails from "./BookDetails";
 import Navbar from "./Navbar";
+import { useEffect } from "react";
+import { supabase } from "./supabaseClient";
 
 function Home({ books, userBooks, setUserBooks }) {
   const navigate = useNavigate();
@@ -108,6 +110,29 @@ function App() {
   ]);
 
   const [userBooks, setUserBooks] = useState([]);
+  useEffect(() => {
+    const fetchBooks = async () => {
+      const { data, error } = await supabase
+        .from("user_books")
+        .select("*");
+
+      if (error) {
+        console.log(error);
+        return;
+      }
+
+      // ✅ FIX: map DB → UI format
+      const formatted = (data || []).map((b) => ({
+        bookId: b.book_id,
+        status: b.status,
+        progress: b.progress
+      }));
+
+      setUserBooks(formatted);
+    };
+
+    fetchBooks();
+  }, []);
 
   return (
     <>

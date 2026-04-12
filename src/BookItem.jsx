@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { supabase } from "./supabaseClient";
 
 function BookItem({ book, userBooks, setUserBooks }) {
   const navigate = useNavigate();
@@ -17,48 +18,64 @@ function BookItem({ book, userBooks, setUserBooks }) {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const handleAdd = (status) => {
+  const handleAdd = async (status) => {
     const existing = userBooks.find((b) => b.bookId === book.id);
 
+    let progress = existing?.progress || 0;
+
     if (existing && existing.status === status) {
+      await supabase.from("user_books").delete().eq("book_id", book.id);
       setUserBooks(userBooks.filter((b) => b.bookId !== book.id));
       return;
     }
 
-    if (existing) {
-      setUserBooks(
-        userBooks.map((b) =>
+    const updatedBooks = existing
+      ? userBooks.map((b) =>
           b.bookId === book.id ? { ...b, status } : b
         )
-      );
-      return;
-    }
+      : [...userBooks, { bookId: book.id, status, progress: 0 }];
 
-    setUserBooks([
-      ...userBooks,
-      { bookId: book.id, status, progress: 0 }
-    ]);
+    setUserBooks(updatedBooks);
+
+    // ✅ KEEP EXISTING PROGRESS
+    await supabase.from("user_books").upsert({
+      book_id: book.id,
+      status,
+      progress
+    });
   };
 
-  const updateProgress = (change) => {
-    setUserBooks(
-      userBooks.map((b) =>
-        b.bookId === book.id
-          ? {
-              ...b,
-              progress: Math.max(
-                0,
-                Math.min((b.progress || 0) + change, 100)
-              ),
-              status:
-                (b.progress || 0) + change >= 100
-                  ? "completed"
-                  : "reading"
-            }
-          : b
-      )
+  const updateProgress = async (change) => {
+    const existing = userBooks.find((b) => b.bookId === book.id);
+    if (!existing) return;
+
+    const newProgress = Math.max(
+      0,
+      Math.min(existing.progress + change, 100)
     );
-  };
+
+    const newStatus = newProgress >= 100 ? "completed" : "reading";
+
+    // ✅ update UI FIRST (using fresh value)
+    const updatedBooks = userBooks.map((b) =>
+      b.bookId === book.id
+        ? { ...b, progress: newProgress, status: newStatus }
+        : b
+    );
+
+    setUserBooks(updatedBooks);
+
+    // ✅ THEN sync to Supabase
+    const { error } = await supabase
+      .from("user_books")
+      .update({
+        progress: newProgress,
+        status: newStatus
+      })
+      .eq("book_id", book.id);
+
+        if (error) console.log(error);
+    };
 
   const current = userBooks.find((b) => b.bookId === book.id);
 
