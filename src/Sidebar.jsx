@@ -1,38 +1,86 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 function Sidebar({ genres }) {
   const navigate = useNavigate();
+  const location = useLocation();
 
   return (
     <div style={sidebar}>
-      {genres.map((g) => (
-        <div
-          key={g}
-          onClick={() => navigate(`/genre/${g}`)}
-          style={item}
-        >
-          {g}
-        </div>
-      ))}
+      <p style={heading}>Filter by Genre</p>
+
+      {genres.map((g) => {
+        const isActive = location.pathname.includes(g);
+
+        return (
+          <div
+            key={g}
+            onClick={() => navigate(`/genre/${g}`)}
+            style={{
+              ...item,
+              ...(isActive ? activeItem : {})
+            }}
+            onMouseEnter={(e) => {
+              if (!isActive) {
+                e.currentTarget.style.background = "#222";
+                e.currentTarget.style.boxShadow =
+                  "0 0 10px rgba(255, 213, 79, 0.2)";
+                e.currentTarget.style.color = "#fff";
+              }
+            }}
+            onMouseLeave={(e) => {
+              if (!isActive) {
+                e.currentTarget.style.background = "transparent";
+                e.currentTarget.style.boxShadow = "none";
+                e.currentTarget.style.color = "#aaa";
+              }
+            }}
+          >
+            {g}
+          </div>
+        );
+      })}
     </div>
   );
 }
 
+/* STYLES */
 
 const sidebar = {
   position: "fixed",
-  top: "60px",
+  top: "70px",
   left: 0,
-  bottom: 0,                         // ✅ instead of height
-  width: "220px",
-  background: "#052d3d",
-  padding: "20px"
+  width: "180px",
+  bottom: 0,
+  background: "#191A1C",
+  padding: "20px",
+  borderRight: "1px solid rgba(255,255,255,0.08)",
+  zIndex: 100
+};
+
+const heading = {
+  color: "#888",
+  fontSize: "12px",
+  marginBottom: "15px",
+  letterSpacing: "1px",
+  textTransform: "uppercase",
+  fontFamily: "'Montserrat', sans-serif"
 };
 
 const item = {
-  color: "white",
-  marginBottom: "10px",
-  cursor: "pointer"
+  padding: "10px 14px",
+  borderRadius: "20px", // ✅ pill shape
+  color: "#aaa",
+  cursor: "pointer",
+  fontSize: "17px",
+  fontFamily: "'Montserrat', sans-serif",
+  transition: "all 0.2s ease",
+  marginBottom: "8px"
+};
+
+const activeItem = {
+  background: "#222",
+  color: "#FFD54F",
+  boxShadow: "0 0 12px rgba(255, 213, 79, 0.35)" // ✅ glow
 };
 
 export default Sidebar;

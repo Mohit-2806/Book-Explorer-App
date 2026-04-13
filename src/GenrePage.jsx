@@ -1,58 +1,59 @@
 import { useParams } from "react-router-dom";
 import BookItem from "./BookItem";
 
-function GenrePage({ books, userBooks, setUserBooks }) {
+function GenrePage({ books = [], userBooks = [], setUserBooks, user }) {
   const { genre } = useParams();
 
-  const filteredBooks = books.filter((b) =>
-    b.genre.toLowerCase().includes(genre.toLowerCase())
+  // ✅ safer filtering (exact match, case insensitive)
+  const filteredBooks = books.filter(
+    (b) => b.genre.toLowerCase() === genre.toLowerCase()
   );
 
   return (
-    <div
-      style={{
-        background: "#0B3D4F", // ✅ full-page cream
-        minHeight: "100vh"
-      }}
-    >
-      <div
-        style={{
-          padding: "30px",
-          maxWidth: "1200px",
-          margin: "0 auto",
-          marginTop: "10px",
-          fontFamily: "sans-serif"
-        }}
-      >
-        <h1 style={{ color: "#FFD54F", marginBottom: "20px" }}>
-          {genre} Books
-        </h1>
+    <div style={container}>
+      <h1 style={title}>{genre.toUpperCase()}</h1>
 
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "15px"
-          }}
-        >
-          {filteredBooks.length > 0 ? (
-            filteredBooks.map((book) => (
-              <BookItem
-                key={book.id}
-                book={book}
-                userBooks={userBooks}
-                setUserBooks={setUserBooks}
-              />
-            ))
-          ) : (
-            <p style={{ color: "#FFD54F" }}>
-              No books found in this genre.
-            </p>
-          )}
-        </div>
+      <div style={grid}>
+        {filteredBooks.length > 0 ? (
+          filteredBooks.map((book) => (
+            <BookItem
+              key={book.id}
+              book={book}
+              userBooks={userBooks}
+              setUserBooks={setUserBooks}
+              user={user} // ✅ IMPORTANT
+            />
+          ))
+        ) : (
+          <p style={empty}>No books found.</p>
+        )}
       </div>
     </div>
   );
 }
+
+/* STYLES */
+
+const container = {
+  padding: "20px",
+  paddingLeft: "50px"
+};
+
+const title = {
+  color: "#FFD54F",
+  fontFamily: "'Cormorant Garamond', serif",
+  fontSize: "28px",
+  marginBottom: "20px"
+};
+
+const grid = {
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "20px"
+};
+
+const empty = {
+  color: "#888"
+};
 
 export default GenrePage;

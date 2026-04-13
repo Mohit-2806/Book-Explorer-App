@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
+import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
 import BookItem from "./BookItem";
 import MyLibrary from "./MyLibrary";
 import GenrePage from "./GenrePage";
 import BookDetails from "./BookDetails";
-import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
-import { supabase } from "./supabaseClient";
 import Auth from "./Auth";
+import { supabase } from "./supabaseClient";
 
-function Home({ books, userBooks, setUserBooks, search }) {
+function Home({ books, userBooks, setUserBooks, search, user }) {
   const grouped = books.reduce((acc, b) => {
     if (!acc[b.genre]) acc[b.genre] = [];
     acc[b.genre].push(b);
@@ -29,10 +29,11 @@ function Home({ books, userBooks, setUserBooks, search }) {
                 book={b}
                 userBooks={userBooks}
                 setUserBooks={setUserBooks}
+                user={user}
               />
             ))
         : Object.keys(grouped).map((g) => (
-            <div key={g}>
+            <div key={g} style={section}> 
               <h2 style={h2}>{g}</h2>
               <div style={row}>
                 {grouped[g].map((b) => (
@@ -41,6 +42,7 @@ function Home({ books, userBooks, setUserBooks, search }) {
                     book={b}
                     userBooks={userBooks}
                     setUserBooks={setUserBooks}
+                    user={user}
                   />
                 ))}
               </div>
@@ -81,8 +83,8 @@ function App() {
 
   return (
     <>
-      <Navbar search={search} setSearch={setSearch} />
       <Sidebar genres={genres} />
+      <Navbar search={search} setSearch={setSearch} />
 
       <div style={main}>
         <Routes>
@@ -94,38 +96,21 @@ function App() {
                 userBooks={userBooks}
                 setUserBooks={setUserBooks}
                 search={search}
+                user={user}
               />
             }
           />
           <Route
             path="/my-library"
-            element={
-              <MyLibrary
-                userBooks={userBooks}
-                books={books}
-                setUserBooks={setUserBooks}
-              />
-            }
+            element={<MyLibrary userBooks={userBooks} books={books} setUserBooks={setUserBooks} user={user}/>}
           />
           <Route
             path="/book/:id"
-            element={
-              <BookDetails
-                books={books}
-                userBooks={userBooks}
-                setUserBooks={setUserBooks}
-              />
-            }
+            element={<BookDetails books={books} books={books} userBooks={userBooks}/>}
           />
           <Route
             path="/genre/:genre"
-            element={
-              <GenrePage
-                books={books}
-                userBooks={userBooks}
-                setUserBooks={setUserBooks}
-              />
-            }
+            element={<GenrePage books={books} />}
           />
         </Routes>
       </div>
@@ -134,24 +119,36 @@ function App() {
 }
 
 const main = {
-  position: "absolute",              // ✅ key change
-  top: "60px",
-  left: "220px",
-  right: 0,                          // ✅ stretch to right edge
-  bottom: 0,                         // ✅ stretch to bottom
-  padding: "20px",
-  background: "#0B3D4F",
-  overflowY: "auto"
+  position: "absolute",
+  top: "65px",
+  left: "180px",
+  right: 0,
+  bottom: 0,
+  padding: "25px 30px",
+  paddingLeft: "50px", // ✅ gives breathing room
+  overflowY: "auto",
+  background: "#191A1C",
+  zIndex: 1
 };
 
 
 const home = {
-  padding: "20px",
-  color: "white"
+  padding: "10px"
+};
+const section = {
+  marginBottom: "25px",
+  paddingBottom: "20px",
+  borderBottom: "1px solid #2A2B2E" // ✅ clean divider
 };
 
 const h2 = {
-  color: "#FFD54F"
+  color: "#F5E6A8",   // ✅ cream yellow (not harsh yellow)
+  marginBottom: "10px",
+  fontFamily: "'Montserrat', sans-serif",
+  fontSize: "18px",
+  fontWeight: "400",
+  letterSpacing: "1px",
+  textTransform: "uppercase"  // ✅ ALL CAPS
 };
 
 const row = {
