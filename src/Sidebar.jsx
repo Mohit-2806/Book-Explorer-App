@@ -9,12 +9,12 @@ function Sidebar({ genres }) {
       <p style={heading}>Filter by Genre</p>
 
       {genres.map((g) => {
-        const isActive = location.pathname.includes(g);
+        const isActive = location.pathname.includes(g.value);
 
         return (
           <div
-            key={g}
-            onClick={() => navigate(`/genre/${g}`)}
+            key={g.value}
+            onClick={() => navigate(`/genre/${g.value}`)}
             style={{
               ...item,
               ...(isActive ? activeItem : {})
@@ -35,7 +35,7 @@ function Sidebar({ genres }) {
               }
             }}
           >
-            {g}
+            {g.label.charAt(0).toUpperCase() + g.label.slice(1).toLowerCase()} {/* ✅ FIX: use label instead of string */}
           </div>
         );
       })}
@@ -54,7 +54,8 @@ const sidebar = {
   background: "#191A1C",
   padding: "20px",
   borderRight: "1px solid rgba(255,255,255,0.08)",
-  zIndex: 100
+  zIndex: 100,
+   // ✅ THIS FIXES EVERYTHING
 };
 
 const heading = {
@@ -68,7 +69,7 @@ const heading = {
 
 const item = {
   padding: "10px 14px",
-  borderRadius: "20px", // ✅ pill shape
+  borderRadius: "20px",
   color: "#aaa",
   cursor: "pointer",
   fontSize: "17px",
@@ -80,7 +81,7 @@ const item = {
 const activeItem = {
   background: "#222",
   color: "#FFD54F",
-  boxShadow: "0 0 12px rgba(255, 213, 79, 0.35)" // ✅ glow
+  boxShadow: "0 0 12px rgba(255, 213, 79, 0.35)"
 };
 
 export default Sidebar;

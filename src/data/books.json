@@ -1,0 +1,1338 @@
+{
+  "fiction": [
+    {
+      "id": "icKmd-tlvPMC",
+      "title": "Journey to the Center of the Earth",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=icKmd-tlvPMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "3oSqDwAAQBAJ",
+      "title": "Oliver Twist",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=3oSqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "MRoMUV2kLZEC",
+      "title": "Mysteries",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=MRoMUV2kLZEC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "D86zAwAAQBAJ",
+      "title": "The Happy Prince and Other Stories",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=D86zAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "ng9iEAAAQBAJ",
+      "title": "The Mayor of Casterbridge (Historical Novel)",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=ng9iEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "bHhgzgEACAAJ",
+      "title": "The Jungle Book Illustrated",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=bHhgzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "OqAFAQAAIAAJ",
+      "title": "Mrs. Dalloway",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=OqAFAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "sG-SEAAAQBAJ",
+      "title": "The Power of Movement in Plants",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=sG-SEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "U-1LyAaWtCoC",
+      "title": "Tess of the D'Urbervilles",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=U-1LyAaWtCoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "L88qEAAAQBAJ",
+      "title": "SHERLOCK HOLMES - THE VALLEY OF FEAR",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=L88qEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "-sZSDwAAQBAJ",
+      "title": "A Portrait of the Artist as a Young Man",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=-sZSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "6vGiDwAAQBAJ",
+      "title": "The Picture of Dorian Gray",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=6vGiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "I4ITufjFf0oC",
+      "title": "Midnight's Children",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=I4ITufjFf0oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "v7VPEQAAQBAJ",
+      "title": "The Street of Crocodiles",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=v7VPEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "KVGd-NabpW0C",
+      "title": "The Plague",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=KVGd-NabpW0C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "Wl3JDAAAQBAJ",
+      "title": "The World Set Free",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=Wl3JDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "XUtNEQAAQBAJ",
+      "title": "The Final Problem",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=XUtNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "qvk6DwAAQBAJ",
+      "title": "Sense and Sensibility - Illustrated Edition",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=qvk6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "aUgxvgAACAAJ",
+      "title": "VANITY FAIR",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=aUgxvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "q2WM6gXLEfwC",
+      "title": "Robinson Crusoe",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=q2WM6gXLEfwC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
+  "romance": [
+    {
+      "id": "FTDuAAAAMAAJ",
+      "title": "Sons and Lovers",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=FTDuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "9vVlAAAAMAAJ",
+      "title": "Toxic Bachelors",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=9vVlAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "X9FlAAAAMAAJ",
+      "title": "Marriage Most Scandalous",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=X9FlAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "OShhkoZC_9wC",
+      "title": "A Loving Scoundrel",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=OShhkoZC_9wC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "xYUxEDRnWiIC",
+      "title": "Special Delivery",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=xYUxEDRnWiIC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "_y8kwT-j3sUC",
+      "title": "Simple Gifts",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=_y8kwT-j3sUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "SxPUCwAAQBAJ",
+      "title": "Me Before You (Movie Tie-In)",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=SxPUCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "IV9bAAAAMAAJ",
+      "title": "Second Chance",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=IV9bAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "vQdXswEACAAJ",
+      "title": "Restore Me",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=vQdXswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "LUVbAAAAMAAJ",
+      "title": "Sunset in St. Tropez",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=LUVbAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "03WquAAACAAJ",
+      "title": "Jane Eyre",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=03WquAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "PvhlAAAAMAAJ",
+      "title": "HRH",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=PvhlAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "eE9SMQEACAAJ",
+      "title": "Esio Trot",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=eE9SMQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "ZvMTBQAAQBAJ",
+      "title": "Last Voyage of the Valentina",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=ZvMTBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "glRaAAAAMAAJ",
+      "title": "Sunny Chandler's Return",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=glRaAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "RNmODAAAQBAJ",
+      "title": "The Japanese Lover",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=RNmODAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "pd4nAAAAQBAJ",
+      "title": "Twisted Perfection",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=pd4nAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "Y12-OQ5BDjcC",
+      "title": "Northern Lights",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=Y12-OQ5BDjcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "ZaBBAAAAQBAJ",
+      "title": "A Man to Call My Own",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=ZaBBAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "wAp-p3golOkC",
+      "title": "The Legacy",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=wAp-p3golOkC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
+  "fantasy": [
+    {
+      "id": "NM5PqgKd2dsC",
+      "title": "The Plague of Fantasies",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=NM5PqgKd2dsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "Mo7D3Je7_DMC",
+      "title": "The Wind in the Willows",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=Mo7D3Je7_DMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "Fc4vX8-vQPgC",
+      "title": "Tales from Earthsea",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=Fc4vX8-vQPgC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "Pnqx6B2lF60C",
+      "title": "The Silver Chair",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=Pnqx6B2lF60C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "vVKeG7xD_WkC",
+      "title": "The Happy Prince and Other Tales",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=vVKeG7xD_WkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "GZAoAQAAIAAJ",
+      "title": "Harry Potter and the Deathly Hallows",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=GZAoAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "7bTeIug-jFEC",
+      "title": "Crown of Midnight",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=7bTeIug-jFEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "WdM_qxJq8T8C",
+      "title": "Peter Pan",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=WdM_qxJq8T8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "ApsfYQbeeZQC",
+      "title": "Prince Caspian",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=ApsfYQbeeZQC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "yT9aAAAAMAAJ",
+      "title": "The Wonderful Wizard of Oz",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=yT9aAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "bqhaAAAAMAAJ",
+      "title": "The Wind in the Willows",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=bqhaAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "UY7bjfq3mYkC",
+      "title": "Gifts",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=UY7bjfq3mYkC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "FD72ekYZqIkC",
+      "title": "A Wizard of Earthsea",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=FD72ekYZqIkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "4bn7XhMeBH8C",
+      "title": "Prince Caspian Movie Tie-in Edition (rack)",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=4bn7XhMeBH8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "xYotngEACAAJ",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=xYotngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "hRd7dJ-9G1IC",
+      "title": "The Wizard of Oz",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=hRd7dJ-9G1IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "J6LPEffCfWMC",
+      "title": "The Lion, the Witch and the Wardrobe Movie Tie-in Edition (adult)",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=J6LPEffCfWMC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "OqW7183UykkC",
+      "title": "Prince Caspian",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=OqW7183UykkC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "OGJqzw0Oo2UC",
+      "title": "The Fellowship of the Ring",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=OGJqzw0Oo2UC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "8UJaAAAAYAAJ",
+      "title": "Harry Potter y la piedra filosofal",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=8UJaAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
+  "history": [
+    {
+      "id": "bo2pb7XH7F0C",
+      "title": "Nandanar's Children",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=bo2pb7XH7F0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "a91-t4uw8A4C",
+      "title": "Alberuni's India",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=a91-t4uw8A4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "ScYJAQAAQBAJ",
+      "title": "The Past Before Us",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=ScYJAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "OWfcoMnHU8gC",
+      "title": "The Goddess and the Nation",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=OWfcoMnHU8gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "DmB_AgAAQBAJ",
+      "title": "India: The Ancient Past",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=DmB_AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "EdtIxQEACAAJ",
+      "title": "Shivaji and His Times",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=EdtIxQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "wHQKAwAAQBAJ",
+      "title": "A Synopsis of Elementary Results in Pure and Applied Mathematics",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=wHQKAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "7IOzAAAAIAAJ",
+      "title": "Eurocentrism",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=7IOzAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "4Ed56B3vA80C",
+      "title": "The Oxford Handbook of Aristotle",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=4Ed56B3vA80C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "Pepy2_OXEe4C",
+      "title": "Undoing Gender",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=Pepy2_OXEe4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "cphUEAAAQBAJ",
+      "title": "Aftermath",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=cphUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "tK5y4iPArKQC",
+      "title": "Ancient Communities of the Himalaya",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=tK5y4iPArKQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "FqK0DgAAQBAJ",
+      "title": "METEOROLOGY",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=FqK0DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "H5pyUIY4THYC",
+      "title": "A Concise History of Greece",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=H5pyUIY4THYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "aUgxvgAACAAJ",
+      "title": "VANITY FAIR",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=aUgxvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "s5C6yZJZkIQC",
+      "title": "With Honour & Glory",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=s5C6yZJZkIQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "qKL9if9wl_UC",
+      "title": "Screened Out",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=qKL9if9wl_UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "hYSakXJIxOMC",
+      "title": "The White Woman's Other Burden",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=hYSakXJIxOMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "Br-Ho0rlFGwC",
+      "title": "Alexander the Great",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=Br-Ho0rlFGwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "WoeivQEACAAJ",
+      "title": "Homer's Iliad, Books XX., XXI. and XXII., with Engl. Notes and a Literal Translation",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=WoeivQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
+  "science": [
+    {
+      "id": "Y9ntEAAAQBAJ",
+      "title": "WILHELM MEISTER'S APPRENTICESHIP AND TRAVELS",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=Y9ntEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "8Q003u9IfPYC",
+      "title": "Fundamentals of Light Sources and Lasers",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=8Q003u9IfPYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "HamyAAAAQBAJ",
+      "title": "Modern Particle Physics",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=HamyAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "u-zOxavxsjYC",
+      "title": "Encyclopedia of Surface and Colloid Science",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=u-zOxavxsjYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "zuQokxhZgP4C",
+      "title": "Fourier Series and Orthogonal Functions",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=zuQokxhZgP4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "1h7WBgAAQBAJ",
+      "title": "Introduction to Cosmology",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=1h7WBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "zieQDwAAQBAJ",
+      "title": "What I Require From Life",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=zieQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "mGZfZKtsxtwC",
+      "title": "Out of Control",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=mGZfZKtsxtwC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "7jTdDsBklc4C",
+      "title": "The Book of Instruction in the Elements of the Art of Astrology",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=7jTdDsBklc4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "oXbLDwAAQBAJ",
+      "title": "Encyclopedia of the World’s Biomes",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=oXbLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "zQEh2d6rzHoC",
+      "title": "Stuff Matters",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=zQEh2d6rzHoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "LeqhDwAAQBAJ",
+      "title": "On the Revolutions of Heavenly Spheres",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=LeqhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "CiCOAwAAQBAJ",
+      "title": "Neurobiology of Brain Disorders",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=CiCOAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "31RhzMMTTdIC",
+      "title": "Ethnobotany in the New Europe",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=31RhzMMTTdIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "p3YYDAAAQBAJ",
+      "title": "50 Years of DNA",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=p3YYDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "k5qgGcZVOugC",
+      "title": "From Natural Philosophy to the Sciences",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=k5qgGcZVOugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "G7qoDQAAQBAJ",
+      "title": "Gunpowder, Explosives and the State",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=G7qoDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "j2ULnwEACAAJ",
+      "title": "Quantum Computation and Quantum Information",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=j2ULnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "yjnLAwAAQBAJ",
+      "title": "Freshwater Algae of North America",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=yjnLAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "lBWlDwAAQBAJ",
+      "title": "Diffuse Reflectance Spectroscopy Environmental Problem Solving",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=lBWlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+  ],
+  "mystery": [
+    {
+      "id": "NGoFudTo7YsC",
+      "title": "Cards on the Table",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=NGoFudTo7YsC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "ZOMOe5CIPu8C",
+      "title": "The Golden Ball and Other Stories",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=ZOMOe5CIPu8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "A-AS46wG0p8C",
+      "title": "The Da Vinci Code",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=A-AS46wG0p8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "SCHqme8AluYC",
+      "title": "The Invisible Man",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=SCHqme8AluYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "4N_vmQGYwyAC",
+      "title": "Angels and Demons",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=4N_vmQGYwyAC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "dXccl8vD4LoC",
+      "title": "The Narrows",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=dXccl8vD4LoC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "4StOSYpeydcC",
+      "title": "Crime and Punishment",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=4StOSYpeydcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "AVWtezN75agC",
+      "title": "The Daughter of Time",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=AVWtezN75agC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "BWgIFhncP2sC",
+      "title": "Robinson Crusoe",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=BWgIFhncP2sC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "KA4hwzlnclsC",
+      "title": "The Runaway Jury",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=KA4hwzlnclsC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "K0NiQgAACAAJ",
+      "title": "My Name is Red",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=K0NiQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "iBllWx4W_8wC",
+      "title": "A Time to Kill",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=iBllWx4W_8wC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "fTYXLPR6UD0C",
+      "title": "Stop the Clock",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=fTYXLPR6UD0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "apH-QFb7w5QC",
+      "title": "The Night Manager",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=apH-QFb7w5QC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "JzqaAAAAIAAJ",
+      "title": "Evil Under the Sun",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=JzqaAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "vwt6of7puqwC",
+      "title": "Riverboat Ruse",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=vwt6of7puqwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "0ldRKM0o0qUC",
+      "title": "Lights, Camera . . .",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=0ldRKM0o0qUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "WaFjPwAACAAJ",
+      "title": "The Moving Finger",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=WaFjPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "f2BBPwAACAAJ",
+      "title": "The Clocks",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=f2BBPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "I51aAAAAMAAJ",
+      "title": "The Curious Incident of the Dog in the Night-time",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=I51aAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
+  "thriller": [
+    {
+      "id": "afSBdDkZTgkC",
+      "title": "The Holcroft Covenant",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=afSBdDkZTgkC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "MBtctNppOJAC",
+      "title": "Tripwire",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=MBtctNppOJAC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "UGUahZnpa0MC",
+      "title": "The Visitor",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=UGUahZnpa0MC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "g40bVuX9wmYC",
+      "title": "The Da Vinci Code",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=g40bVuX9wmYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "2TWvWe5qRVUC",
+      "title": "White Fang",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=2TWvWe5qRVUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "3Vi2uQAACAAJ",
+      "title": "The Da Vinci Code",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=3Vi2uQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "NqtaAAAAMAAJ",
+      "title": "Mercy",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=NqtaAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "J7ywAAAAIAAJ",
+      "title": "The Dark Half",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=J7ywAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "Nq5aAAAAMAAJ",
+      "title": "The Testament",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=Nq5aAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "4X0gAQAAIAAJ",
+      "title": "Sheba",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=4X0gAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "yNGxCGV50oEC",
+      "title": "The Partner",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=yNGxCGV50oEC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "ViZePgAACAAJ",
+      "title": "The Confessor",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=ViZePgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "LlV2CwAAQBAJ",
+      "title": "He Will Be My Ruin",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=LlV2CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "yRSoAAAAIAAJ",
+      "title": "The Eleventh Commandment",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=yRSoAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "eDls6pNzpccC",
+      "title": "Robert Ludlum's The Altman Code",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=eDls6pNzpccC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "czJ-qu4ZisoC",
+      "title": "A Game for Heroes",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=czJ-qu4ZisoC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "yoUFRQAACAAJ",
+      "title": "The Shadow of the Wind",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=yoUFRQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "vJ7xtwEACAAJ",
+      "title": "Hour Game",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=vJ7xtwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "GP9aAAAAMAAJ",
+      "title": "No One to Trust",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=GP9aAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
+  "biography": [
+    {
+      "id": "d2WZDgAAQBAJ",
+      "title": "Einstein",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=d2WZDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "UTtuAAAAMAAJ",
+      "title": "My Days with Nehru",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=UTtuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "13mAEAAAQBAJ",
+      "title": "I'm Glad My Mom Died",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=13mAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "w3mAEAAAQBAJ",
+      "title": "Red Roulette",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=w3mAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "w8XPyBqxwX8C",
+      "title": "Pillars of Modern India, 1757-1947",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=w8XPyBqxwX8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "8zwNNUUGJSAC",
+      "title": "Telling Lives in India",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=8zwNNUUGJSAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "mWI7EAAAQBAJ",
+      "title": "The Rise and Fall of Osama Bin Laden",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=mWI7EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "ukkDAAAAYAAJ",
+      "title": "Dictionary of Indian Biography",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=ukkDAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "IdAmDwAAQBAJ",
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=IdAmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "3cDFXcfh-7IC",
+      "title": "Six Men",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=3cDFXcfh-7IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "aeEKAAAAYAAJ",
+      "title": "Freedom in Exile",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=aeEKAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "QdCNeNx6LJUC",
+      "title": "Eat, Pray, Love",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=QdCNeNx6LJUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "jOuEAAAAIAAJ",
+      "title": "Alexander Fleming, the Man and the Myth",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=jOuEAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "ggWxAAAAIAAJ",
+      "title": "What is a Gospel?",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=ggWxAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "TvwtAQAAIAAJ",
+      "title": "Cleopatra",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=TvwtAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "7eOitgEACAAJ",
+      "title": "Why I Am a Hindu",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=7eOitgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "rS1wev7D9QIC",
+      "title": "Biographical Essays",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=rS1wev7D9QIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "870_AQAAIAAJ",
+      "title": "Dictionary of Greek and Roman Biography and Mythology: Earinus-Nyx",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=870_AQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "arDvngEACAAJ",
+      "title": "Gandhi Before India",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=arDvngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "s90nDwAAQBAJ",
+      "title": "The Drowned and the Saved",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=s90nDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+  ],
+  "adventure": [
+    {
+      "id": "AfyMXnyjTbgC",
+      "title": "Treasure Island",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=AfyMXnyjTbgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "inZhHuo89T8C",
+      "title": "Fantastic Mr. Fox",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=inZhHuo89T8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "tMbCQ7CM9wAC",
+      "title": "Robinson Crusoe",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=tMbCQ7CM9wAC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "0S_uAAAAMAAJ",
+      "title": "The Adventures of Tom Sawyer",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=0S_uAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "IgNaAAAAYAAJ",
+      "title": "Ark Angel",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=IgNaAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "oLkNAQAAIAAJ",
+      "title": "Emil and the Detectives",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=oLkNAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "bUMUvgAACAAJ",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=bUMUvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "2TWvWe5qRVUC",
+      "title": "White Fang",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=2TWvWe5qRVUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "w6lrc-9EapgC",
+      "title": "River Boy",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=w6lrc-9EapgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "6RS00wtlWhIC",
+      "title": "Life of Pi",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=6RS00wtlWhIC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "sgTJQQAACAAJ",
+      "title": "Treasure Island",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=sgTJQQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "pZsyHQAACAAJ",
+      "title": "Five Have a Mystery to Solve",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=pZsyHQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "6cakAAAACAAJ",
+      "title": "The Boy in the Striped Pyjamas",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=6cakAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "XKFDWoh1EdwC",
+      "title": "Safari Adventure",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=XKFDWoh1EdwC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "Fbhf0QEACAAJ",
+      "title": "Treasure Island PB",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=Fbhf0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "NKMSAAAACAAJ",
+      "title": "Tintin in America",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=NKMSAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "DsuMmwEACAAJ",
+      "title": "The Tombs",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=DsuMmwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "BQCUAAAACAAJ",
+      "title": "Fergus Crane",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=BQCUAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "4q3WkQEACAAJ",
+      "title": "The Colossus Rises",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=4q3WkQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "XV5OAAAACAAJ",
+      "title": "The Scarecrow and His Servant",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=XV5OAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
+  "self-help": [
+    {
+      "id": "Mmtn9-YpF6EC",
+      "title": "Empowerment of Women Through Self Help Groups",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=Mmtn9-YpF6EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "cod9AAAAMAAJ",
+      "title": "Measuring Ego Development",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=cod9AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "OAVHAAAAMAAJ",
+      "title": "Ego Analysis in the Helping Professions",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=OAVHAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "oYIUjjWVT0AC",
+      "title": "A Study of the Relationship of the Self-concept to Adjustment in a Selected Group of College Women",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=oYIUjjWVT0AC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "5znhAAAAMAAJ",
+      "title": "About Me",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=5znhAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "7kJMAQAAIAAJ",
+      "title": "Inquiring about Myself",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=7kJMAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "8QoNAQAAMAAJ",
+      "title": "The Magic Within",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=8QoNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "VpA_AAAAYAAJ",
+      "title": "Act Thin, Stay Thin",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=VpA_AAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "mW9MAAAAMAAJ",
+      "title": "The Promotion of Ego Development Through Role Play in a Ten Year Old Boy",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=mW9MAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "BRuCAAAAIAAJ",
+      "title": "The Paradoxical Self",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=BRuCAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "0c59AAAAMAAJ",
+      "title": "On Willing Selves",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=0c59AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "OmEWB3y3iqUC",
+      "title": "Constellations of Life Satisfaction in Three Cohorts of Women",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=OmEWB3y3iqUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "krchlWLqnmUC",
+      "title": "Breadth of Perspective, Culture Contact, and Self",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=krchlWLqnmUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "JU4jAAAAYAAJ",
+      "title": "Motherself",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=JU4jAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "Rz1-AAAAMAAJ",
+      "title": "Psychological Perspectives on the Self",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=Rz1-AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "KmeO-N1ES9AC",
+      "title": "Midlife Mothers in Transition",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=KmeO-N1ES9AC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "1BC5AAAAIAAJ",
+      "title": "In an African Direction",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=1BC5AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "4IvL1DHwlycC",
+      "title": "The Development of the Ego",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=4IvL1DHwlycC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "D3R4AAAAIAAJ",
+      "title": "Hidden Paths",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=D3R4AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "45jlDZlhT4sC",
+      "title": "Self and Family",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=45jlDZlhT4sC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
+  "nonfiction": [
+    {
+      "id": "Xb9wDwAAQBAJ",
+      "title": "AI Superpowers",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=Xb9wDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "VLvMDwAAQBAJ",
+      "title": "Mind Over Mood",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=VLvMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "w1wpDAAAQBAJ",
+      "title": "A Night to Remember",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=w1wpDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "apHbtAEACAAJ",
+      "title": "Gandhi",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=apHbtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "MUucJV0dRaIC",
+      "title": "Teach Your Child to Read in 100 Easy Lessons",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=MUucJV0dRaIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "h6QBvgAACAAJ",
+      "title": "Why the Rich Are Getting Richer",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=h6QBvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "bLoKuAEACAAJ",
+      "title": "Underland",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=bLoKuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "ZpkrDwAAQBAJ",
+      "title": "Science in the Soul",
+      "rating": 3.5,
+      "thumbnail": "http://books.google.com/books/content?id=ZpkrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "rTdtDwAAQBAJ",
+      "title": "Empire of Enchantment",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=rTdtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "t90nDwAAQBAJ",
+      "title": "What to Say When You Talk to Your Self",
+      "rating": 3,
+      "thumbnail": "http://books.google.com/books/content?id=t90nDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "lYwJqWYT3t0C",
+      "title": "The Illustrated Art of War",
+      "rating": 5,
+      "thumbnail": "http://books.google.com/books/content?id=lYwJqWYT3t0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "7Ma0swEACAAJ",
+      "title": "Factfulness",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=7Ma0swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "Zp2WDwAAQBAJ",
+      "title": "The Rough Guide to New Zealand (Travel Guide eBook)",
+      "rating": 2.5,
+      "thumbnail": "http://books.google.com/books/content?id=Zp2WDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "7NNSDwAAQBAJ",
+      "title": "Chasing New Horizons",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=7NNSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "u1PF7izzWGcC",
+      "title": "How to Win Friends and Influence People in the Digital Age",
+      "rating": 1,
+      "thumbnail": "http://books.google.com/books/content?id=u1PF7izzWGcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "n2D6DwAAQBAJ",
+      "title": "Human by Design",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=n2D6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "1-joVyMeol4C",
+      "title": "Alexander",
+      "rating": 1,
+      "thumbnail": "http://books.google.com/books/content?id=1-joVyMeol4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "uzdtDwAAQBAJ",
+      "title": "The Oxford Illustrated History of the Holy Land",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=uzdtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "z68yEAAAQBAJ",
+      "title": "In the Closet of The Vatican",
+      "rating": 4.5,
+      "thumbnail": "http://books.google.com/books/content?id=z68yEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "sT5MDwAAQBAJ",
+      "title": "The Oxford Illustrated History of the Third Reich",
+      "rating": 4,
+      "thumbnail": "http://books.google.com/books/content?id=sT5MDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+  ]
+}

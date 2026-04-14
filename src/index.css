@@ -1,34 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@300;400;500&display=swap');
 
-html, body, #root {
+/* RESET */
+
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* ROOT */
+
+html, body, #root {
   height: 100%;
   background: #191A1C;
-  color: white;
+  color: #191A1C;
   font-family: 'Montserrat', sans-serif;
+  overflow: hidden; /* ✅ IMPORTANT: body should NOT scroll */
 }
+
+/* FORCE DARK BACKGROUND */
+
+body {
+  background: #191A1C;
+}
+
+#root {
+  background: #191A1C;
+}
+
+/* HEADINGS */
 
 h1, h2 {
   font-family: 'Cormorant Garamond', serif;
 }
 
-/* scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background: #191A1C;
-}
-::-webkit-scrollbar-thumb {
-  background: #FFD54F;
-  border-radius: 10px;
+/* ================= SCROLLBAR ================= */
+/* IMPORTANT: this targets your MAIN scroll container */
+
+/* Generic scroll containers (like your fixed main) */
+/* Chrome, Edge, Safari */
+.main-scroll::-webkit-scrollbar {
+  width: 10px !important;
 }
 
-body {
-  overflow-x: hidden;
+.main-scroll::-webkit-scrollbar-thumb {
+  background: #FFD54F !important;
+  border-radius: 10px !important;
 }
 
-* {
-  box-sizing: border-box;
+.main-scroll::-webkit-scrollbar-track {
+  background: #191A1C !important;
 }
+
+
+
+
+
+
+

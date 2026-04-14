@@ -67,20 +67,29 @@ function BookItem({ book, userBooks, setUserBooks, user }) {
   };
 
   return (
-    <div style={container}>
+    <div
+      style={container}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.transform = "translateY(-6px)";
+        e.currentTarget.style.boxShadow = "0 10px 20px rgba(0,0,0,0.4)";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.transform = "translateY(0)";
+        e.currentTarget.style.boxShadow = "none";
+      }}
+    >
       {/* IMAGE */}
       <div
         style={imageWrap}
         onClick={() => navigate(`/book/${book.id}`)}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.transform = "scale(1.05)";
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.transform = "scale(1)";
-        }}
       >
+        {/* COMPLETED BADGE */}
+        {current?.status === "completed" && (
+          <div style={badge}>Completed</div>
+        )}
+
         <img
-          src="https://picsum.photos/150/220"
+          src={book.thumbnail || "https://via.placeholder.com/150x220"}
           alt={book.title}
           style={img}
         />
@@ -101,7 +110,7 @@ function BookItem({ book, userBooks, setUserBooks, user }) {
             style={{
               ...menu,
               opacity: showMenu ? 1 : 0,
-              transform: showMenu ? "scale(1)" : "scale(0.95)",
+              transform: showMenu ? "scale(1)" : "translateY(-4px)",
               pointerEvents: showMenu ? "auto" : "none"
             }}
           >
@@ -111,16 +120,28 @@ function BookItem({ book, userBooks, setUserBooks, user }) {
               return (
                 <button
                   key={s}
-                  onClick={(e) => {
+                  onClick={async (e) => {
                     e.stopPropagation();
-                    handleAdd(s);
+
+                    if (current?.status === s) {
+                      const updated = userBooks.filter(
+                        (b) => b.bookId !== book.id
+                      );
+                      setUserBooks(updated);
+
+                      await supabase
+                        .from("user_books")
+                        .delete()
+                        .eq("book_id", book.id);
+                    } else {
+                      handleAdd(s);
+                    }
                   }}
                   style={{
                     ...menuItem,
                     background: isActive ? "#FFD54F" : "transparent",
                     color: isActive ? "#191A1C" : "white",
-                    fontWeight: isActive ? "600" : "400",
-                    transform: isActive ? "scale(1.05)" : "scale(1)"
+                    fontWeight: isActive ? "600" : "400"
                   }}
                 >
                   {s}
@@ -184,18 +205,32 @@ function BookItem({ book, userBooks, setUserBooks, user }) {
 
 const container = {
   width: "150px",
-  fontFamily: "'Montserrat', sans-serif"
+  fontFamily: "'Montserrat', sans-serif",
+  transition: "all 0.25s ease",
+  borderRadius: "12px"
 };
 
 const imageWrap = {
   position: "relative",
-  cursor: "pointer",
-  transition: "0.25s ease"
+  cursor: "pointer"
 };
 
 const img = {
   width: "100%",
   borderRadius: "10px"
+};
+
+const badge = {
+  position: "absolute",
+  top: "8px",
+  left: "8px",
+  background: "#FFD54F",
+  color: "#191A1C",
+  fontSize: "10px",
+  padding: "3px 6px",
+  borderRadius: "6px",
+  fontWeight: "600",
+  zIndex: 5
 };
 
 const title = {
@@ -260,8 +295,7 @@ const menuItem = {
   cursor: "pointer",
   width: "100%",
   textAlign: "left",
-  borderRadius: "6px",
-  transition: "all 0.15s ease"
+  borderRadius: "6px"
 };
 
 export default BookItem;

@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { supabase } from "./supabaseClient";
 
-function Navbar({ search, setSearch }) {
+function Navbar({ search, setSearch, onEnter}) {
   const navigate = useNavigate();
 
   return (
@@ -20,10 +20,17 @@ function Navbar({ search, setSearch }) {
       </div>
 
       {/* SEARCH (CENTER-RIGHT) */}
+      
       <input
         placeholder="Search..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            e.preventDefault();   // 🔥 important
+            onEnter && onEnter(); // 🔥 safe call
+          }
+        }}
         style={searchStyle}
       />
 
