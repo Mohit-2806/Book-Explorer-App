@@ -13,7 +13,7 @@
 html, body, #root {
   height: 100%;
   background: #191A1C;
-  color: #191A1C;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   overflow: hidden; /* ✅ IMPORTANT: body should NOT scroll */
 }

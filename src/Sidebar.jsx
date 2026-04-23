@@ -55,7 +55,8 @@ const sidebar = {
   padding: "20px",
   borderRight: "1px solid rgba(255,255,255,0.08)",
   zIndex: 100,
-   // ✅ THIS FIXES EVERYTHING
+
+  boxSizing: "border-box"   // ✅ THIS FIXES EVERYTHING
 };
 
 const heading = {
